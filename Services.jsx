@@ -1,26 +1,26 @@
 import React from "react";
-import { FaCameraRetro } from "react-icons/fa";
-import { GiNotebook } from "react-icons/gi";
-import { SlNote } from "react-icons/sl";
+import { GiTakeMyMoney} from "react-icons/fa";
+import { FaAngellist } from "react-icons/gi";
+import { FaHandshake } from "react-icons/sl";
 
 const skillsData = [
   {
     name: "Best Price",
-    icon: <FaCameraRetro className="text-5xl text-primary group-hover:text-black duration-300" />,
+    icon: <GiTakeMyMoney className="text-5xl text-primary group-hover:text-black duration-300" />,
     link: "#",
     description: "We provide the most affordable rental rates with no hidden charges, ensuring complete transparency and value for your money. Our flexible rental plans suit every budget, making travel cost-effective and convenient.",
     aosDelay: "0",
   },
   {
     name: "Fast and Safe",
-    icon: <GiNotebook className="text-5xl text-primary group-hover:text-black duration-300" />,
+    icon: <FaAngellist className="text-5xl text-primary group-hover:text-black duration-300" />,
     link: "#",
     description: "Our hassle-free booking process lets you rent a scooty or bike in just a few clicks. With real-time availability updates, you can quickly find and book your ride without any delays.",
     aosDelay: "500",
   },
   {
     name: "Reliable Service",
-    icon: <SlNote className="text-5xl text-primary group-hover:text-black duration-500" />,
+    icon: <FaHandshake className="text-5xl text-primary group-hover:text-black duration-500" />,
     link: "#",
     description: "We are committed to providing a seamless and dependable rental experience. Our 24/7 customer support, well-serviced vehicles, and on-time availability make us a trusted choice for your travel needs. Ride with confidence, knowing you can count on us!.",
     aosDelay: "1000",
